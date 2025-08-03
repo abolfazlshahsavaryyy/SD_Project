@@ -16,3 +16,7 @@ LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
+[Files]
+/rotate_register.vhd=-1
+[Files.Data]
+.\src\rotate_register.vhd=VHDL Source Code
