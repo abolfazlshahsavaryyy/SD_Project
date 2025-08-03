@@ -1,1 +1,2 @@
 .\src\rotate_register.vhd
+.\src\tb_rotate_register.vhd
