@@ -2,13 +2,13 @@
 Built-in symbols=0
 Shift_Register=0
 [COMPILESTATUS|.\src\rotate_register.vhd]
-FileTimeLow=3050362351
-FileTimeHigh=31196236
-Status=Compiled
+FileTimeLow=3232847778
+FileTimeHigh=31196283
+Status=Modified
 [COMPILESTATUS|.\src\tb_rotate_register.vhd]
-FileTimeLow=3050674840
-FileTimeHigh=31196236
-Status=Compiled
+FileTimeLow=3252918390
+FileTimeHigh=31196283
+Status=Modified
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\Shift_Register\src/tb_rotate_register.vhd|]
 CurrentLine=46
 CurrentColumn=0
@@ -29,13 +29,9 @@ WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////yMBAACZAAAA/wUAAIoCAAA
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\Shift_Register\Shift_Register.adf|]
 Path=/tb_rotate_register
-[COMPILESTATUS|.\src\rotate_register.vhd]
-FileTimeLow=3050362351
-FileTimeHigh=31196236
-Status=Compiled
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\Shift_Register\src/rotate_register.vhd|]
-CurrentLine=29
-CurrentColumn=25
+CurrentLine=2
+CurrentColumn=31
 Bookmarks=-1
 BookmarksLength=3
 ZoomFactor=0
@@ -43,7 +39,7 @@ Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yMBAACZAAAA/wUAAIoCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\Shift_Register\src/tb_rotate_register.vhd|]
 CurrentLine=26
-CurrentColumn=14
+CurrentColumn=54
 Bookmarks=-1
 BookmarksLength=3
 ZoomFactor=0

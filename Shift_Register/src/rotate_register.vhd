@@ -11,7 +11,7 @@ entity rotate_register is
 end rotate_register;
 
 architecture Behavioral of rotate_register is
-    signal reg : STD_LOGIC_VECTOR(7 downto 0) := "10000001"; -- „ﬁœ«— «Ê·ÌÂ
+    signal reg : STD_LOGIC_VECTOR(7 downto 0) := "10000001"; 
 begin
     process(clk, rst)
     begin
