@@ -1,0 +1,18 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Shift_Register
+[Library]
+Shift_Register=.\Shift_Register\Shift_Register.lib
+[$LibMap$]
+Shift_Register=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
