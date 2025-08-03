@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2025-08-03 11:32:29
+Active-HDL 13.0.375.8320 2025-08-03 16:28:40
 
 Elaboration top modules:
 Architecture                  behavior(tb_rotate_register)
@@ -7,8 +7,8 @@ Architecture                  behavior(tb_rotate_register)
 ------------------------------------------------------------------------------------------------------------
 Entity             | Architecture | Library        | Info | Compiler Version          | Compilation Options
 ------------------------------------------------------------------------------------------------------------
-tb_rotate_register | behavior     | Shift_Register |      | 13.0.375.8320 (Windows64) | -O3
-rotate_register    | Behavioral   | Shift_Register |      | 13.0.375.8320 (Windows64) | -O3
+tb_rotate_register | behavior     | shift_register |      | 13.0.375.8320 (Windows64) | -O3
+rotate_register    | Behavioral   | shift_register |      | 13.0.375.8320 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ std_logic_1164                    | ieee           |      | 13.0.375.8320 (Windo
 Library                           | Comment
 ------------------------------------------------------------------------------------------------------------
 ieee                              | Standard IEEE packages library
-Shift_Register                    | None
+shift_register                    | None
 std                               | Standard VHDL library
 ------------------------------------------------------------------------------------------------------------
 

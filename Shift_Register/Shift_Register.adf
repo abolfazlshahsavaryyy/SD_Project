@@ -22,3 +22,7 @@ FAMILY=
 [Files.Data]
 .\src\rotate_register.vhd=VHDL Source Code
 .\src\tb_rotate_register.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=tb_rotate_register|behavior|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,101 @@
+# Design: Design Shift_Register already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work Shift_Register -2002  $dsn/src/rotate_register.vhd $dsn/src/tb_rotate_register.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/SD_project/Shift_Register/src/rotate_register.vhd
+# Compile Entity "rotate_register"
+# Compile Architecture "Behavioral" of Entity "rotate_register"
+# File: c:/My_Designs/SD_project/Shift_Register/src/tb_rotate_register.vhd
+# Compile Entity "tb_rotate_register"
+# Compile Architecture "behavior" of Entity "tb_rotate_register"
+# Top-level unit(s) detected:
+# Entity => tb_rotate_register
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+tb_rotate_register tb_rotate_register behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\SD_project\Shift_Register\src\wave.asdb
+#  11:30 AM, Sunday, August 3, 2025
+#  Simulation has been initialized
+# add wave -noreg {/tb_rotate_register/clk}
+# add wave -noreg {/tb_rotate_register/rst}
+# add wave -noreg {/tb_rotate_register/dir}
+# add wave -noreg {/tb_rotate_register/data_out}
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/SD_project/Shift_Register/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_rotate_register tb_rotate_register behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\SD_project\Shift_Register\src\wave.asdb
+#  11:32 AM, Sunday, August 3, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/SD_project/Shift_Register/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_rotate_register tb_rotate_register behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\SD_project\Shift_Register\src\wave.asdb
+#  11:32 AM, Sunday, August 3, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/SD_project/Shift_Register/src/wave.asdb'.
+# add wave -noreg {/tb_rotate_register/clk}
+# add wave -noreg {/tb_rotate_register/rst}
+# add wave -noreg {/tb_rotate_register/dir}
+# add wave -noreg {/tb_rotate_register/data_out}
+# VSIM: 4 object(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
