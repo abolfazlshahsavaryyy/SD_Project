@@ -26,9 +26,9 @@ begin
     begin
         while now < 200 ns loop
             clk <= '0';
-            wait for 10 ns;
+            wait for 5 ns;
             clk <= '1';
-            wait for 10 ns;
+            wait for 5 ns;
         end loop;
         wait;
     end process;

@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2025-08-11 14:14:04
+Active-HDL 13.0.375.8320 2025-08-11 15:12:39
 
 Elaboration top modules:
 Architecture                  behavior(tb_rotate_register)
@@ -26,7 +26,3 @@ ieee                              | Standard IEEE packages library
 shift_register                    | None
 std                               | Standard VHDL library
 ------------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+tb_rotate_register tb_rotate_register behavior
-

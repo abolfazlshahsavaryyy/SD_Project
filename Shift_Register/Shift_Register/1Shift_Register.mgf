@@ -183,13 +183,59 @@ V 000051 55 1136          1754909034844 Behavioral
 	)
 	(_model . Behavioral 2 -1)
 )
-V 000049 55 1318          1754909034909 behavior
+I 000049 55 1318          1754909034909 behavior
 (_unit VHDL(tb_rotate_register 0 4(behavior 0 7))
 	(_version vef)
 	(_time 1754909034910 2025.08.11 14:13:54)
 	(_source(\../src/tb_rotate_register.vhd\))
 	(_parameters tan)
 	(_code 82d4d78c82d6809582d0c4d9d784838586848787d4)
+	(_ent
+		(_time 1754208043204)
+	)
+	(_comp
+		(rotate_register
+			(_object
+				(_port(_int clk -1 0 10(_ent (_in))))
+				(_port(_int rst -1 0 11(_ent (_in))))
+				(_port(_int dir -1 0 12(_ent (_in))))
+				(_port(_int data_out 0 0 13(_ent (_out))))
+			)
+		)
+	)
+	(_inst UUT 0 23(_comp rotate_register)
+		(_port
+			((clk)(clk))
+			((rst)(rst))
+			((dir)(dir))
+			((data_out)(data_out))
+		)
+		(_use(_ent . rotate_register)
+		)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{7~downto~0}~13 0 13(_array -1((_dto i 7 i 0)))))
+		(_sig(_int clk -1 0 17(_arch(_uni((i 2))))))
+		(_sig(_int rst -1 0 18(_arch(_uni((i 3))))))
+		(_sig(_int dir -1 0 19(_arch(_uni((i 2))))))
+		(_type(_int ~STD_LOGIC_VECTOR{7~downto~0}~132 0 20(_array -1((_dto i 7 i 0)))))
+		(_sig(_int data_out 1 0 20(_arch(_uni))))
+		(_prcs
+			(clk_process(_arch 0 0 25(_prcs(_wait_for)(_trgt(0)))))
+			(stim_proc(_arch 1 0 36(_prcs(_wait_for)(_trgt(1)(2)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . behavior 2 -1)
+)
+V 000049 55 1318          1754912558881 behavior
+(_unit VHDL(tb_rotate_register 0 4(behavior 0 7))
+	(_version vef)
+	(_time 1754912558882 2025.08.11 15:12:38)
+	(_source(\../src/tb_rotate_register.vhd\))
+	(_parameters tan)
+	(_code 030307050257011403514558560502040705060655)
 	(_ent
 		(_time 1754208043204)
 	)
