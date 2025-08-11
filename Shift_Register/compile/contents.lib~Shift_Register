@@ -1,4 +1,4 @@
-2
+3
 ~E 1 "../src/rotate_register.vhd" 4 rotate_register
 ~A 1 "../src/rotate_register.vhd" 13 Behavioral
 ~E 1 "../src/tb_rotate_register.vhd" 4 tb_rotate_register
